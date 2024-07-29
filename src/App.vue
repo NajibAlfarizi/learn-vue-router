@@ -1,11 +1,13 @@
 <script setup>
-import Home from './views/Home.vue'
-import About from './views/About.vue'
+
+import { RouterView } from "vue-router";
+import Nav from "./components/Nav.vue";
 
 </script>
 
 <template>
-  <Home />
+  <Nav />
+  <RouterView />
 </template>
 
 <style scoped>
